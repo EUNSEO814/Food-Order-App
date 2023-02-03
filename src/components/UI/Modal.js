@@ -12,7 +12,7 @@ const BackdropStyle = styled.div`
   background-color: rgba(0, 0, 0, 0.75);
 `;
 const slideDown = keyframes`
-  from {
+from {
     opacity: 0;
     transform: translateY(-3rem);
   }
@@ -23,7 +23,7 @@ const slideDown = keyframes`
 `;
 const ModalStyle = styled.div`
   position: fixed;
-  top: 20vh;
+  top: 15vh;
   left: 5%;
   width: 90%;
   background-color: white;
